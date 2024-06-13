@@ -1,0 +1,19 @@
+nav.active{
+    top: 0px;
+    left: 0px;
+
+    position: fixed;
+    animation: active 0.7s linear;
+}
+
+
+@keyframes active {
+    0%{
+        transform: translateY(-100%);
+    }
+
+    100%{
+        transform: translateY(0%);
+    }
+    
+}
